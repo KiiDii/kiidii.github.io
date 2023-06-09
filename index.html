@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Microsoft Azure Active Directory</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.0/js/msal.js"></script>
+  </head>
+  <body>
+    <h1>Iframe is here</h1>
+    <iframe src="https://login.microsoftonline.com/0eff1b6d-4d08-4084-b881-a393f1defa8d/oauth2/v2.0/authorize?client_id=7d8d6dfa-d7fd-4880-8ad7-4d4c4f286a47&scope=user.read%20openid%20profile%20offline_access&redirect_uri=http%3A%2F%2Flocalhost%3A4000%2Fredirect&client-request-id=cddf359b-7a9f-4fec-8768-bec23e929539&response_mode=query&response_type=code&x-client-SKU=msal.js.node&x-client-VER=1.17.2&x-client-OS=darwin&x-client-CPU=x64&client_info=1" id="authFrame" style="height:500px;width:500px;"></iframe>
+    <script src="index.js"></script>
+  </body>
+</html>
